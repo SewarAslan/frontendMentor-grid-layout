@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'DMSans';
+    src: url('assets/fonts/DMSans-VariableFont_opsz,wght.ttf');
+}
+
+body{
+    font-size: 18px;
+    font-family: 'DMSans';
+     width: 100vw;
+  overflow-x: hidden; 
+  background-color: hsl(249, 54%, 97%);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 5em;
+
+}
+.myGrid{
+    display: grid;
+    grid-template-columns: repeat(4,minmax(0,1fr));
+    grid-template-rows: repeat(4 ,minmax(0,1fr));
+    grid-gap: 20px;
+}
+
+
+
+.sell{
+    background-color: hsl(0, 0%, 100%);
+    border:1px solid black;
+    border-radius: 6%;
+}
+.dark-purple{
+background-color: hsl(256, 67%, 59%);
+color: white;
+
+}
+.light-purple{
+    background-color: hsl(254, 88%, 90%);
+    color: black;
+}
+.dark-yellow{
+    background-color: hsl(39, 100%, 71%);
+    color: black;
+}
+.light-yellow{
+    background-color: hsl(31, 66%, 93%);
+    color: black;
+}
+.italic{
+    font-style: italic;
+}
